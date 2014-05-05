@@ -1,252 +1,289 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <prov:document xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://github.com/plus-provenance/plus#" xmlns:triggered="http://github.com/plus-provenance/plus#PLUSEdge" xmlns:string="http://github.com/plus-provenance/plus#PLUSString" xmlns:workflow="http://github.com/plus-provenance/plus#PLUSWorkflow" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:invocation="http://github.com/plus-provenance/plus#PLUSInvocation">
-    <prov:activity prov:id="invocation:urn:uuid:mitre:plus:503aa57e-ff00-49ce-93ca-175906a42550">
-        <prov:label>Browse</prov:label>
-        <App xsi:type="xsd:string">Firefox</App>
-        <User xsi:type="xsd:string">Alice</User>
-        <name xsi:type="xsd:string">Browse</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
-        <plus_type xsi:type="xsd:string">invocation</plus_type>
-        <plus_subtype xsi:type="xsd:string">invocation</plus_subtype>
-    </prov:activity>
-    <prov:activity prov:id="invocation:urn:uuid:mitre:plus:c51e8fde-4f8e-4650-ab9e-dc3b0c56d655">
-        <prov:label>Publish</prov:label>
-        <App xsi:type="xsd:string">Sharepoint</App>
-        <User xsi:type="xsd:string">Cathy</User>
-        <name xsi:type="xsd:string">Publish</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
-        <plus_type xsi:type="xsd:string">invocation</plus_type>
-        <plus_subtype xsi:type="xsd:string">invocation</plus_subtype>
-    </prov:activity>
-    <prov:activity prov:id="invocation:urn:uuid:mitre:plus:c2858820-1527-4d34-bb5e-5159ec4c4a57">
-        <prov:label>View Email</prov:label>
-        <App xsi:type="xsd:string">Outlook</App>
-        <User xsi:type="xsd:string">Bob</User>
-        <name xsi:type="xsd:string">View Email</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
-        <plus_type xsi:type="xsd:string">invocation</plus_type>
-        <plus_subtype xsi:type="xsd:string">invocation</plus_subtype>
-    </prov:activity>
-    <prov:activity prov:id="invocation:urn:uuid:mitre:plus:04f3a8df-a768-459c-9ac4-b906336d8088">
+    <prov:activity prov:id="invocation:urn:uuid:mitre:plus:51ba7048-5e89-4bfb-b5ec-dc0f4cf08f29">
         <prov:label>View</prov:label>
         <App xsi:type="xsd:string">Outlook</App>
         <User xsi:type="xsd:string">Alice</User>
         <name xsi:type="xsd:string">View</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
         <plus_type xsi:type="xsd:string">invocation</plus_type>
         <plus_subtype xsi:type="xsd:string">invocation</plus_subtype>
     </prov:activity>
-    <prov:activity prov:id="invocation:urn:uuid:mitre:plus:0541a81e-a500-48bf-ba12-72321f793251">
-        <prov:label>Create Summary</prov:label>
-        <App xsi:type="xsd:string">Word, Sharepoint</App>
-        <User xsi:type="xsd:string">Alice</User>
-        <name xsi:type="xsd:string">Create Summary</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
+    <prov:activity prov:id="invocation:urn:uuid:mitre:plus:f907a4e3-6c73-4c7d-924c-360ebb671544">
+        <prov:label>Publish</prov:label>
+        <App xsi:type="xsd:string">Sharepoint</App>
+        <User xsi:type="xsd:string">Cathy</User>
+        <name xsi:type="xsd:string">Publish</name>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
         <plus_type xsi:type="xsd:string">invocation</plus_type>
         <plus_subtype xsi:type="xsd:string">invocation</plus_subtype>
     </prov:activity>
-    <prov:activity prov:id="invocation:urn:uuid:mitre:plus:db33bfd5-ba79-4d76-8321-02e4b1ae02fb">
-        <prov:label>Review</prov:label>
-        <App xsi:type="xsd:string">Word, Sharepoint</App>
-        <User xsi:type="xsd:string">Bob</User>
-        <name xsi:type="xsd:string">Review</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
-        <plus_type xsi:type="xsd:string">invocation</plus_type>
-        <plus_subtype xsi:type="xsd:string">invocation</plus_subtype>
-    </prov:activity>
-    <prov:activity prov:id="invocation:urn:uuid:mitre:plus:d45af114-3ed4-4d97-ab97-2a9196093df1">
+    <prov:activity prov:id="invocation:urn:uuid:mitre:plus:56880f29-97f2-427c-9d7e-498465cb50b9">
         <prov:label>Save Links</prov:label>
         <App xsi:type="xsd:string">Word, Sharepoint</App>
         <User xsi:type="xsd:string">Alice</User>
         <name xsi:type="xsd:string">Save Links</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
         <plus_type xsi:type="xsd:string">invocation</plus_type>
         <plus_subtype xsi:type="xsd:string">invocation</plus_subtype>
     </prov:activity>
-    <prov:activity prov:id="invocation:urn:uuid:mitre:plus:97a91381-9dc5-458e-b896-d6608ee0c469">
+    <prov:activity prov:id="invocation:urn:uuid:mitre:plus:d9d28f9d-93e1-41a1-9cb6-d62567a1187f">
         <prov:label>Review</prov:label>
         <App xsi:type="xsd:string">Word, Sharepoint</App>
         <User xsi:type="xsd:string">Bob</User>
         <name xsi:type="xsd:string">Review</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
         <plus_type xsi:type="xsd:string">invocation</plus_type>
         <plus_subtype xsi:type="xsd:string">invocation</plus_subtype>
     </prov:activity>
-    <prov:entity prov:id="string:urn:uuid:mitre:plus:8b49739a-e498-4dab-9a5b-403b0b12fdfd">
-        <prov:label>Email from Colleage 3</prov:label>
-        <sha256hash xsi:type="xsd:string">b333a860e31b15f6f621a82f699bf9a5fcea18eb997445d49b29488196e56554</sha256hash>
-        <name xsi:type="xsd:string">Email from Colleage 3</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
-        <plus_type xsi:type="xsd:string">data</plus_type>
-        <plus_subtype xsi:type="xsd:string">string</plus_subtype>
-    </prov:entity>
-    <prov:entity prov:id="string:urn:uuid:mitre:plus:c7d597d6-7ac0-4155-b64e-16c96c8a3b97">
+    <prov:activity prov:id="invocation:urn:uuid:mitre:plus:7b03d2b6-edab-42e0-9465-22f0c5f3598d">
+        <prov:label>View Email</prov:label>
+        <App xsi:type="xsd:string">Outlook</App>
+        <User xsi:type="xsd:string">Bob</User>
+        <name xsi:type="xsd:string">View Email</name>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
+        <plus_type xsi:type="xsd:string">invocation</plus_type>
+        <plus_subtype xsi:type="xsd:string">invocation</plus_subtype>
+    </prov:activity>
+    <prov:activity prov:id="invocation:urn:uuid:mitre:plus:f3874e48-c6f0-4754-8303-e2f1b5b08c18">
+        <prov:label>Browse</prov:label>
+        <App xsi:type="xsd:string">Firefox</App>
+        <User xsi:type="xsd:string">Alice</User>
+        <name xsi:type="xsd:string">Browse</name>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
+        <plus_type xsi:type="xsd:string">invocation</plus_type>
+        <plus_subtype xsi:type="xsd:string">invocation</plus_subtype>
+    </prov:activity>
+    <prov:activity prov:id="invocation:urn:uuid:mitre:plus:9a71d5e8-0642-4a36-bc1f-ff7b2ecaa635">
+        <prov:label>Create Summary</prov:label>
+        <App xsi:type="xsd:string">Word, Sharepoint</App>
+        <User xsi:type="xsd:string">Alice</User>
+        <name xsi:type="xsd:string">Create Summary</name>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
+        <plus_type xsi:type="xsd:string">invocation</plus_type>
+        <plus_subtype xsi:type="xsd:string">invocation</plus_subtype>
+    </prov:activity>
+    <prov:activity prov:id="invocation:urn:uuid:mitre:plus:22bddd81-3fdd-4140-9c29-8c95c916baa2">
+        <prov:label>Review</prov:label>
+        <App xsi:type="xsd:string">Word, Sharepoint</App>
+        <User xsi:type="xsd:string">Bob</User>
+        <name xsi:type="xsd:string">Review</name>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
+        <plus_type xsi:type="xsd:string">invocation</plus_type>
+        <plus_subtype xsi:type="xsd:string">invocation</plus_subtype>
+    </prov:activity>
+    <prov:activity prov:id="invocation:urn:uuid:mitre:plus:2c39fe93-7e10-4f57-9c01-228407e183f2">
+        <prov:label>Review</prov:label>
+        <App xsi:type="xsd:string">Word, Sharepoint</App>
+        <User xsi:type="xsd:string">Bob</User>
+        <name xsi:type="xsd:string">Review</name>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
+        <plus_type xsi:type="xsd:string">invocation</plus_type>
+        <plus_subtype xsi:type="xsd:string">invocation</plus_subtype>
+    </prov:activity>
+    <prov:entity prov:id="string:urn:uuid:mitre:plus:49cd598f-bbf2-4ea9-b350-08544cbef4b1">
         <prov:label>Email from Dad</prov:label>
-        <sha256hash xsi:type="xsd:string">0ff472d71402526472f5d99862ebdc617c9d59017a458f14583d12c65197afec</sha256hash>
+        <sha256hash xsi:type="xsd:string">86fd42446845a8343c1b21341de67e8b4ad3618922ee6178681b62a33add8566</sha256hash>
         <name xsi:type="xsd:string">Email from Dad</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
         <plus_type xsi:type="xsd:string">data</plus_type>
         <plus_subtype xsi:type="xsd:string">string</plus_subtype>
     </prov:entity>
-    <prov:entity prov:id="string:urn:uuid:mitre:plus:85437350-6465-48a2-bc6f-705936c8a984">
-        <prov:label>Email from Colleage 3</prov:label>
-        <sha256hash xsi:type="xsd:string">628465edc4afc567ae10f34e5e197ab0c6a193665c6d6eeee9c0b64cfb87d3a2</sha256hash>
-        <name xsi:type="xsd:string">Email from Colleage 3</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
+    <prov:entity prov:id="string:urn:uuid:mitre:plus:37fc34c2-120d-4ad8-bdce-56ae32d0dd59">
+        <prov:label>Web Data 1</prov:label>
+        <sha256hash xsi:type="xsd:string">08839771ee21f5bc77f2890d82910523636d96b67d7f6cdaa78be1e7e56a72df</sha256hash>
+        <name xsi:type="xsd:string">Web Data 1</name>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
         <plus_type xsi:type="xsd:string">data</plus_type>
         <plus_subtype xsi:type="xsd:string">string</plus_subtype>
     </prov:entity>
-    <prov:entity prov:id="string:urn:uuid:mitre:plus:c3a407d8-ac8e-4021-855f-2e765bae6ccc">
-        <prov:label>Notes.txt</prov:label>
-        <sha256hash xsi:type="xsd:string">aa18aac1ceeb0191802a1e605b38c83bb573180a4ddf7786faae11a70dde59a5</sha256hash>
-        <name xsi:type="xsd:string">Notes.txt</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
-        <plus_type xsi:type="xsd:string">data</plus_type>
-        <plus_subtype xsi:type="xsd:string">string</plus_subtype>
-    </prov:entity>
-    <prov:entity prov:id="string:urn:uuid:mitre:plus:1c3371b8-b94d-40b2-82ed-f2ddc3cc7728">
+    <prov:entity prov:id="string:urn:uuid:mitre:plus:593dedd4-70ee-4735-8874-ec8b0a82c2b6">
         <prov:label>Summary revised.docx</prov:label>
-        <sha256hash xsi:type="xsd:string">edd52fb4a7addd249d95d054257f8b6d2b9c429b809244fa04a325915cba0bab</sha256hash>
+        <sha256hash xsi:type="xsd:string">b74971068c775b46fdc137ecce4862d8783c14fff249a8f74fbedbccfb6c9276</sha256hash>
         <name xsi:type="xsd:string">Summary revised.docx</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
         <plus_type xsi:type="xsd:string">data</plus_type>
         <plus_subtype xsi:type="xsd:string">string</plus_subtype>
     </prov:entity>
-    <prov:entity prov:id="string:urn:uuid:mitre:plus:8eb994b1-511e-4e11-97b0-e9e47abfcd2a">
-        <prov:label>Email from Mom</prov:label>
-        <sha256hash xsi:type="xsd:string">bfab303056d43c1b4116e139c142e1d7e687926629c08ac32d1aad635a221602</sha256hash>
-        <name xsi:type="xsd:string">Email from Mom</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
+    <prov:entity prov:id="string:urn:uuid:mitre:plus:1fbf009a-1e86-4caa-81c2-e7ed554e7b7f">
+        <prov:label>Web Data 2</prov:label>
+        <sha256hash xsi:type="xsd:string">b2088c4aa78da139b6f88513c1746b90b257161e01027ee2cd8ba42ba490527b</sha256hash>
+        <name xsi:type="xsd:string">Web Data 2</name>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
         <plus_type xsi:type="xsd:string">data</plus_type>
         <plus_subtype xsi:type="xsd:string">string</plus_subtype>
     </prov:entity>
-    <prov:entity prov:id="string:urn:uuid:mitre:plus:129b115a-0dc2-45da-84f0-9c96b1c5c65e">
-        <prov:label>Final Report</prov:label>
-        <sha256hash xsi:type="xsd:string">895023c1785bc9e46686b2fe9afad3603de70293253c67bc2183d35733d6226c</sha256hash>
-        <name xsi:type="xsd:string">Final Report</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
+    <prov:entity prov:id="string:urn:uuid:mitre:plus:a0f25f28-7402-4b9b-bfd0-489521a5e0e3">
+        <prov:label>Email from Colleague 1</prov:label>
+        <sha256hash xsi:type="xsd:string">695787c365eb396420f247f6436042ee0690fc7191ca1fea6aa063c4d66054a6</sha256hash>
+        <name xsi:type="xsd:string">Email from Colleague 1</name>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
         <plus_type xsi:type="xsd:string">data</plus_type>
         <plus_subtype xsi:type="xsd:string">string</plus_subtype>
     </prov:entity>
-    <prov:entity prov:id="string:urn:uuid:mitre:plus:56e2a2d1-11f2-494f-9081-081aa44547b0">
+    <prov:entity prov:id="string:urn:uuid:mitre:plus:909db7cc-1823-46f0-b7bc-6c5a7e021ed5">
         <prov:label>Summary revised.docx</prov:label>
-        <sha256hash xsi:type="xsd:string">ffc9431dcf9f52cfda62f7444c262a52a43d205db08b63541d582e5eb9cfa42d</sha256hash>
+        <sha256hash xsi:type="xsd:string">dc8732e70edc8486294828eae9e59c4fe5812120cbaca4f1966da8bbee12080f</sha256hash>
         <name xsi:type="xsd:string">Summary revised.docx</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
         <plus_type xsi:type="xsd:string">data</plus_type>
         <plus_subtype xsi:type="xsd:string">string</plus_subtype>
     </prov:entity>
-    <prov:entity prov:id="string:urn:uuid:mitre:plus:57df43c3-858d-458f-ba19-5c4b39123b91">
+    <prov:entity prov:id="string:urn:uuid:mitre:plus:8067ba4d-b2fa-4a6f-8e72-3358e8287a29">
+        <prov:label>Email from Aunt Reba</prov:label>
+        <sha256hash xsi:type="xsd:string">2962d27304f9a41714cb78a52d698cd7076a7f7a1a98d9cf165ba16a749a8d48</sha256hash>
+        <name xsi:type="xsd:string">Email from Aunt Reba</name>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
+        <plus_type xsi:type="xsd:string">data</plus_type>
+        <plus_subtype xsi:type="xsd:string">string</plus_subtype>
+    </prov:entity>
+    <prov:entity prov:id="string:urn:uuid:mitre:plus:35311f9c-b1b7-47ca-90af-08bc3fcdc070">
         <prov:label>Web Data 0</prov:label>
-        <sha256hash xsi:type="xsd:string">be113e54a2f758fe2d56395b38e0c58dbae3c8be539f10db142e8591ba0ab0e1</sha256hash>
+        <sha256hash xsi:type="xsd:string">7214730e477fde080e20a428f5c12c4cfffe82094d2275f22a4d070b7bed7ef2</sha256hash>
         <name xsi:type="xsd:string">Web Data 0</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
         <plus_type xsi:type="xsd:string">data</plus_type>
         <plus_subtype xsi:type="xsd:string">string</plus_subtype>
     </prov:entity>
-    <prov:entity prov:id="workflow:urn:uuid:mitre:plus:f235410b-866e-41fe-bb55-ffe157c1c38e">
+    <prov:entity prov:id="workflow:urn:uuid:mitre:plus:7025a6d2-1e3d-4959-b8bc-97c68713ede1">
         <prov:label>Sample 25</prov:label>
         <when_start xsi:type="xsd:string">Uninitialized</when_start>
         <when_end xsi:type="xsd:string">Uninitialized</when_end>
         <name xsi:type="xsd:string">Sample 25</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
         <plus_type xsi:type="xsd:string">workflow</plus_type>
         <plus_subtype xsi:type="xsd:string">execution</plus_subtype>
     </prov:entity>
-    <prov:entity prov:id="string:urn:uuid:mitre:plus:5be83c9f-f5ac-4ae5-971f-7a90734fba29">
-        <prov:label>Web Data 1</prov:label>
-        <sha256hash xsi:type="xsd:string">b27e242a89ea8a8918cb181154ff6da63ac6a060f7a293f53b2f71043e8066ed</sha256hash>
-        <name xsi:type="xsd:string">Web Data 1</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
-        <plus_type xsi:type="xsd:string">data</plus_type>
-        <plus_subtype xsi:type="xsd:string">string</plus_subtype>
-    </prov:entity>
-    <prov:entity prov:id="string:urn:uuid:mitre:plus:3cddcefa-5a0b-4d27-a042-b106d0834a11">
-        <prov:label>Web Data 2</prov:label>
-        <sha256hash xsi:type="xsd:string">18c9c47b056decd15f901a8ed25fa0bec57d878b47fe3182bb747d19607a3edc</sha256hash>
-        <name xsi:type="xsd:string">Web Data 2</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
-        <plus_type xsi:type="xsd:string">data</plus_type>
-        <plus_subtype xsi:type="xsd:string">string</plus_subtype>
-    </prov:entity>
-    <prov:entity prov:id="string:urn:uuid:mitre:plus:87e8aaaf-5a98-4aea-a10d-5df273538c51">
+    <prov:entity prov:id="string:urn:uuid:mitre:plus:2d37dc16-7617-4717-8667-d0291288192c">
         <prov:label>Summary.docx</prov:label>
-        <sha256hash xsi:type="xsd:string">0d6a7c35de3744e64d1031d3fc8a617ae82ca1d58942a8f6ade366f282559272</sha256hash>
+        <sha256hash xsi:type="xsd:string">f10b485e637231507cdd9ed48fd2127207bbad72edab20a2fdd4aeebac65a332</sha256hash>
         <name xsi:type="xsd:string">Summary.docx</name>
-        <created xsi:type="xsd:dateTime">2014-05-05T15:24:18</created>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
         <plus_type xsi:type="xsd:string">data</plus_type>
         <plus_subtype xsi:type="xsd:string">string</plus_subtype>
     </prov:entity>
-    <prov:used prov:id="triggered:urn:uuid:mitre:plus:5be83c9f-f5ac-4ae5-971f-7a90734fba29:urn:uuid:mitre:plus:503aa57e-ff00-49ce-93ca-175906a42550">
-        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:503aa57e-ff00-49ce-93ca-175906a42550"/>
-        <prov:entity prov:ref="string:urn:uuid:mitre:plus:5be83c9f-f5ac-4ae5-971f-7a90734fba29"/>
+    <prov:entity prov:id="string:urn:uuid:mitre:plus:a68cb029-4445-4f0a-85a4-4c06485d94a3">
+        <prov:label>Summary revised.docx</prov:label>
+        <sha256hash xsi:type="xsd:string">5b72d18dfcce39afbeeaa73086f67cecc451efa35f4212e986c93601d56fdca9</sha256hash>
+        <name xsi:type="xsd:string">Summary revised.docx</name>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
+        <plus_type xsi:type="xsd:string">data</plus_type>
+        <plus_subtype xsi:type="xsd:string">string</plus_subtype>
+    </prov:entity>
+    <prov:entity prov:id="string:urn:uuid:mitre:plus:cf92bab3-7809-49a1-8093-fad76a3a4210">
+        <prov:label>Email from Mom</prov:label>
+        <sha256hash xsi:type="xsd:string">5455747df3f8c7325c73ceef2597c8fed869355f9eb163531dd96ac7650ee336</sha256hash>
+        <name xsi:type="xsd:string">Email from Mom</name>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
+        <plus_type xsi:type="xsd:string">data</plus_type>
+        <plus_subtype xsi:type="xsd:string">string</plus_subtype>
+    </prov:entity>
+    <prov:entity prov:id="string:urn:uuid:mitre:plus:357dcb85-8a28-4abc-a770-b5b67bd504c2">
+        <prov:label>Email from Colleage 3</prov:label>
+        <sha256hash xsi:type="xsd:string">0cfd983a9ec8e78cd18024bc9650d67638b8c0179ff0558476a48463a48f3de5</sha256hash>
+        <name xsi:type="xsd:string">Email from Colleage 3</name>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
+        <plus_type xsi:type="xsd:string">data</plus_type>
+        <plus_subtype xsi:type="xsd:string">string</plus_subtype>
+    </prov:entity>
+    <prov:entity prov:id="string:urn:uuid:mitre:plus:f11ee651-9936-49e5-8854-d49acc09a10c">
+        <prov:label>Notes.txt</prov:label>
+        <sha256hash xsi:type="xsd:string">2dcab226f1093a8eb28689a33ec6e01991f33cbedfc1852e7fc3362c1aeed92b</sha256hash>
+        <name xsi:type="xsd:string">Notes.txt</name>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
+        <plus_type xsi:type="xsd:string">data</plus_type>
+        <plus_subtype xsi:type="xsd:string">string</plus_subtype>
+    </prov:entity>
+    <prov:entity prov:id="string:urn:uuid:mitre:plus:84376ca2-8452-4232-881c-2ed3655c057f">
+        <prov:label>Final Report</prov:label>
+        <sha256hash xsi:type="xsd:string">9112941cfeedaf6a345445d5691b584a0fb6a8bf154126b35d31acc043e78107</sha256hash>
+        <name xsi:type="xsd:string">Final Report</name>
+        <created xsi:type="xsd:dateTime">2014-05-05T15:32:40</created>
+        <plus_type xsi:type="xsd:string">data</plus_type>
+        <plus_subtype xsi:type="xsd:string">string</plus_subtype>
+    </prov:entity>
+    <prov:used prov:id="triggered:urn:uuid:mitre:plus:cf92bab3-7809-49a1-8093-fad76a3a4210:urn:uuid:mitre:plus:7b03d2b6-edab-42e0-9465-22f0c5f3598d">
+        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:7b03d2b6-edab-42e0-9465-22f0c5f3598d"/>
+        <prov:entity prov:ref="string:urn:uuid:mitre:plus:cf92bab3-7809-49a1-8093-fad76a3a4210"/>
     </prov:used>
-    <prov:used prov:id="triggered:urn:uuid:mitre:plus:c3a407d8-ac8e-4021-855f-2e765bae6ccc:urn:uuid:mitre:plus:0541a81e-a500-48bf-ba12-72321f793251">
-        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:0541a81e-a500-48bf-ba12-72321f793251"/>
-        <prov:entity prov:ref="string:urn:uuid:mitre:plus:c3a407d8-ac8e-4021-855f-2e765bae6ccc"/>
-    </prov:used>
-    <prov:wasGeneratedBy prov:id="triggered:urn:uuid:mitre:plus:0541a81e-a500-48bf-ba12-72321f793251:urn:uuid:mitre:plus:87e8aaaf-5a98-4aea-a10d-5df273538c51">
-        <prov:entity prov:ref="string:urn:uuid:mitre:plus:87e8aaaf-5a98-4aea-a10d-5df273538c51"/>
-        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:0541a81e-a500-48bf-ba12-72321f793251"/>
+    <prov:wasGeneratedBy prov:id="triggered:urn:uuid:mitre:plus:2c39fe93-7e10-4f57-9c01-228407e183f2:urn:uuid:mitre:plus:909db7cc-1823-46f0-b7bc-6c5a7e021ed5">
+        <prov:entity prov:ref="string:urn:uuid:mitre:plus:909db7cc-1823-46f0-b7bc-6c5a7e021ed5"/>
+        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:2c39fe93-7e10-4f57-9c01-228407e183f2"/>
     </prov:wasGeneratedBy>
-    <prov:used prov:id="triggered:urn:uuid:mitre:plus:85437350-6465-48a2-bc6f-705936c8a984:urn:uuid:mitre:plus:04f3a8df-a768-459c-9ac4-b906336d8088">
-        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:04f3a8df-a768-459c-9ac4-b906336d8088"/>
-        <prov:entity prov:ref="string:urn:uuid:mitre:plus:85437350-6465-48a2-bc6f-705936c8a984"/>
+    <prov:used prov:id="triggered:urn:uuid:mitre:plus:8067ba4d-b2fa-4a6f-8e72-3358e8287a29:urn:uuid:mitre:plus:7b03d2b6-edab-42e0-9465-22f0c5f3598d">
+        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:7b03d2b6-edab-42e0-9465-22f0c5f3598d"/>
+        <prov:entity prov:ref="string:urn:uuid:mitre:plus:8067ba4d-b2fa-4a6f-8e72-3358e8287a29"/>
     </prov:used>
-    <prov:used prov:id="triggered:urn:uuid:mitre:plus:8b49739a-e498-4dab-9a5b-403b0b12fdfd:urn:uuid:mitre:plus:04f3a8df-a768-459c-9ac4-b906336d8088">
-        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:04f3a8df-a768-459c-9ac4-b906336d8088"/>
-        <prov:entity prov:ref="string:urn:uuid:mitre:plus:8b49739a-e498-4dab-9a5b-403b0b12fdfd"/>
-    </prov:used>
-    <prov:wasInformedBy prov:id="triggered:urn:uuid:mitre:plus:04f3a8df-a768-459c-9ac4-b906336d8088:urn:uuid:mitre:plus:d45af114-3ed4-4d97-ab97-2a9196093df1">
-        <prov:informed prov:ref="invocation:urn:uuid:mitre:plus:d45af114-3ed4-4d97-ab97-2a9196093df1"/>
-        <prov:informant prov:ref="invocation:urn:uuid:mitre:plus:04f3a8df-a768-459c-9ac4-b906336d8088"/>
+    <prov:wasInformedBy prov:id="triggered:urn:uuid:mitre:plus:51ba7048-5e89-4bfb-b5ec-dc0f4cf08f29:urn:uuid:mitre:plus:56880f29-97f2-427c-9d7e-498465cb50b9">
+        <prov:informed prov:ref="invocation:urn:uuid:mitre:plus:56880f29-97f2-427c-9d7e-498465cb50b9"/>
+        <prov:informant prov:ref="invocation:urn:uuid:mitre:plus:51ba7048-5e89-4bfb-b5ec-dc0f4cf08f29"/>
     </prov:wasInformedBy>
-    <prov:wasGeneratedBy prov:id="triggered:urn:uuid:mitre:plus:db33bfd5-ba79-4d76-8321-02e4b1ae02fb:urn:uuid:mitre:plus:56e2a2d1-11f2-494f-9081-081aa44547b0">
-        <prov:entity prov:ref="string:urn:uuid:mitre:plus:56e2a2d1-11f2-494f-9081-081aa44547b0"/>
-        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:db33bfd5-ba79-4d76-8321-02e4b1ae02fb"/>
+    <prov:used prov:id="triggered:urn:uuid:mitre:plus:49cd598f-bbf2-4ea9-b350-08544cbef4b1:urn:uuid:mitre:plus:7b03d2b6-edab-42e0-9465-22f0c5f3598d">
+        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:7b03d2b6-edab-42e0-9465-22f0c5f3598d"/>
+        <prov:entity prov:ref="string:urn:uuid:mitre:plus:49cd598f-bbf2-4ea9-b350-08544cbef4b1"/>
+    </prov:used>
+    <prov:wasGeneratedBy prov:id="triggered:urn:uuid:mitre:plus:f907a4e3-6c73-4c7d-924c-360ebb671544:urn:uuid:mitre:plus:84376ca2-8452-4232-881c-2ed3655c057f">
+        <prov:entity prov:ref="string:urn:uuid:mitre:plus:84376ca2-8452-4232-881c-2ed3655c057f"/>
+        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:f907a4e3-6c73-4c7d-924c-360ebb671544"/>
     </prov:wasGeneratedBy>
-    <prov:wasGeneratedBy prov:id="triggered:urn:uuid:mitre:plus:c51e8fde-4f8e-4650-ab9e-dc3b0c56d655:urn:uuid:mitre:plus:129b115a-0dc2-45da-84f0-9c96b1c5c65e">
-        <prov:entity prov:ref="string:urn:uuid:mitre:plus:129b115a-0dc2-45da-84f0-9c96b1c5c65e"/>
-        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:c51e8fde-4f8e-4650-ab9e-dc3b0c56d655"/>
+    <prov:used prov:id="triggered:urn:uuid:mitre:plus:f11ee651-9936-49e5-8854-d49acc09a10c:urn:uuid:mitre:plus:9a71d5e8-0642-4a36-bc1f-ff7b2ecaa635">
+        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:9a71d5e8-0642-4a36-bc1f-ff7b2ecaa635"/>
+        <prov:entity prov:ref="string:urn:uuid:mitre:plus:f11ee651-9936-49e5-8854-d49acc09a10c"/>
+    </prov:used>
+    <prov:wasGeneratedBy prov:id="triggered:urn:uuid:mitre:plus:9a71d5e8-0642-4a36-bc1f-ff7b2ecaa635:urn:uuid:mitre:plus:2d37dc16-7617-4717-8667-d0291288192c">
+        <prov:entity prov:ref="string:urn:uuid:mitre:plus:2d37dc16-7617-4717-8667-d0291288192c"/>
+        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:9a71d5e8-0642-4a36-bc1f-ff7b2ecaa635"/>
     </prov:wasGeneratedBy>
-    <prov:wasGeneratedBy prov:id="triggered:urn:uuid:mitre:plus:97a91381-9dc5-458e-b896-d6608ee0c469:urn:uuid:mitre:plus:1c3371b8-b94d-40b2-82ed-f2ddc3cc7728">
-        <prov:entity prov:ref="string:urn:uuid:mitre:plus:1c3371b8-b94d-40b2-82ed-f2ddc3cc7728"/>
-        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:97a91381-9dc5-458e-b896-d6608ee0c469"/>
+    <prov:used prov:id="triggered:urn:uuid:mitre:plus:a68cb029-4445-4f0a-85a4-4c06485d94a3:urn:uuid:mitre:plus:f907a4e3-6c73-4c7d-924c-360ebb671544">
+        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:f907a4e3-6c73-4c7d-924c-360ebb671544"/>
+        <prov:entity prov:ref="string:urn:uuid:mitre:plus:a68cb029-4445-4f0a-85a4-4c06485d94a3"/>
+    </prov:used>
+    <prov:used prov:id="triggered:urn:uuid:mitre:plus:35311f9c-b1b7-47ca-90af-08bc3fcdc070:urn:uuid:mitre:plus:f3874e48-c6f0-4754-8303-e2f1b5b08c18">
+        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:f3874e48-c6f0-4754-8303-e2f1b5b08c18"/>
+        <prov:entity prov:ref="string:urn:uuid:mitre:plus:35311f9c-b1b7-47ca-90af-08bc3fcdc070"/>
+    </prov:used>
+    <prov:used prov:id="triggered:urn:uuid:mitre:plus:1fbf009a-1e86-4caa-81c2-e7ed554e7b7f:urn:uuid:mitre:plus:f3874e48-c6f0-4754-8303-e2f1b5b08c18">
+        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:f3874e48-c6f0-4754-8303-e2f1b5b08c18"/>
+        <prov:entity prov:ref="string:urn:uuid:mitre:plus:1fbf009a-1e86-4caa-81c2-e7ed554e7b7f"/>
+    </prov:used>
+    <prov:used prov:id="triggered:urn:uuid:mitre:plus:357dcb85-8a28-4abc-a770-b5b67bd504c2:urn:uuid:mitre:plus:51ba7048-5e89-4bfb-b5ec-dc0f4cf08f29">
+        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:51ba7048-5e89-4bfb-b5ec-dc0f4cf08f29"/>
+        <prov:entity prov:ref="string:urn:uuid:mitre:plus:357dcb85-8a28-4abc-a770-b5b67bd504c2"/>
+    </prov:used>
+    <prov:used prov:id="triggered:urn:uuid:mitre:plus:a0f25f28-7402-4b9b-bfd0-489521a5e0e3:urn:uuid:mitre:plus:51ba7048-5e89-4bfb-b5ec-dc0f4cf08f29">
+        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:51ba7048-5e89-4bfb-b5ec-dc0f4cf08f29"/>
+        <prov:entity prov:ref="string:urn:uuid:mitre:plus:a0f25f28-7402-4b9b-bfd0-489521a5e0e3"/>
+    </prov:used>
+    <prov:used prov:id="triggered:urn:uuid:mitre:plus:2d37dc16-7617-4717-8667-d0291288192c:urn:uuid:mitre:plus:2c39fe93-7e10-4f57-9c01-228407e183f2">
+        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:2c39fe93-7e10-4f57-9c01-228407e183f2"/>
+        <prov:entity prov:ref="string:urn:uuid:mitre:plus:2d37dc16-7617-4717-8667-d0291288192c"/>
+    </prov:used>
+    <prov:used prov:id="triggered:urn:uuid:mitre:plus:593dedd4-70ee-4735-8874-ec8b0a82c2b6:urn:uuid:mitre:plus:22bddd81-3fdd-4140-9c29-8c95c916baa2">
+        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:22bddd81-3fdd-4140-9c29-8c95c916baa2"/>
+        <prov:entity prov:ref="string:urn:uuid:mitre:plus:593dedd4-70ee-4735-8874-ec8b0a82c2b6"/>
+    </prov:used>
+    <prov:wasGeneratedBy prov:id="triggered:urn:uuid:mitre:plus:d9d28f9d-93e1-41a1-9cb6-d62567a1187f:urn:uuid:mitre:plus:593dedd4-70ee-4735-8874-ec8b0a82c2b6">
+        <prov:entity prov:ref="string:urn:uuid:mitre:plus:593dedd4-70ee-4735-8874-ec8b0a82c2b6"/>
+        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:d9d28f9d-93e1-41a1-9cb6-d62567a1187f"/>
     </prov:wasGeneratedBy>
-    <prov:wasInformedBy prov:id="triggered:urn:uuid:mitre:plus:503aa57e-ff00-49ce-93ca-175906a42550:urn:uuid:mitre:plus:d45af114-3ed4-4d97-ab97-2a9196093df1">
-        <prov:informed prov:ref="invocation:urn:uuid:mitre:plus:d45af114-3ed4-4d97-ab97-2a9196093df1"/>
-        <prov:informant prov:ref="invocation:urn:uuid:mitre:plus:503aa57e-ff00-49ce-93ca-175906a42550"/>
+    <prov:wasInformedBy prov:id="triggered:urn:uuid:mitre:plus:f3874e48-c6f0-4754-8303-e2f1b5b08c18:urn:uuid:mitre:plus:56880f29-97f2-427c-9d7e-498465cb50b9">
+        <prov:informed prov:ref="invocation:urn:uuid:mitre:plus:56880f29-97f2-427c-9d7e-498465cb50b9"/>
+        <prov:informant prov:ref="invocation:urn:uuid:mitre:plus:f3874e48-c6f0-4754-8303-e2f1b5b08c18"/>
     </prov:wasInformedBy>
-    <prov:used prov:id="triggered:urn:uuid:mitre:plus:56e2a2d1-11f2-494f-9081-081aa44547b0:urn:uuid:mitre:plus:97a91381-9dc5-458e-b896-d6608ee0c469">
-        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:97a91381-9dc5-458e-b896-d6608ee0c469"/>
-        <prov:entity prov:ref="string:urn:uuid:mitre:plus:56e2a2d1-11f2-494f-9081-081aa44547b0"/>
-    </prov:used>
-    <prov:used prov:id="triggered:urn:uuid:mitre:plus:c7d597d6-7ac0-4155-b64e-16c96c8a3b97:urn:uuid:mitre:plus:c2858820-1527-4d34-bb5e-5159ec4c4a57">
-        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:c2858820-1527-4d34-bb5e-5159ec4c4a57"/>
-        <prov:entity prov:ref="string:urn:uuid:mitre:plus:c7d597d6-7ac0-4155-b64e-16c96c8a3b97"/>
-    </prov:used>
-    <prov:used prov:id="triggered:urn:uuid:mitre:plus:87e8aaaf-5a98-4aea-a10d-5df273538c51:urn:uuid:mitre:plus:db33bfd5-ba79-4d76-8321-02e4b1ae02fb">
-        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:db33bfd5-ba79-4d76-8321-02e4b1ae02fb"/>
-        <prov:entity prov:ref="string:urn:uuid:mitre:plus:87e8aaaf-5a98-4aea-a10d-5df273538c51"/>
-    </prov:used>
-    <prov:used prov:id="triggered:urn:uuid:mitre:plus:57df43c3-858d-458f-ba19-5c4b39123b91:urn:uuid:mitre:plus:503aa57e-ff00-49ce-93ca-175906a42550">
-        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:503aa57e-ff00-49ce-93ca-175906a42550"/>
-        <prov:entity prov:ref="string:urn:uuid:mitre:plus:57df43c3-858d-458f-ba19-5c4b39123b91"/>
-    </prov:used>
-    <prov:used prov:id="triggered:urn:uuid:mitre:plus:8eb994b1-511e-4e11-97b0-e9e47abfcd2a:urn:uuid:mitre:plus:c2858820-1527-4d34-bb5e-5159ec4c4a57">
-        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:c2858820-1527-4d34-bb5e-5159ec4c4a57"/>
-        <prov:entity prov:ref="string:urn:uuid:mitre:plus:8eb994b1-511e-4e11-97b0-e9e47abfcd2a"/>
-    </prov:used>
-    <prov:used prov:id="triggered:urn:uuid:mitre:plus:3cddcefa-5a0b-4d27-a042-b106d0834a11:urn:uuid:mitre:plus:503aa57e-ff00-49ce-93ca-175906a42550">
-        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:503aa57e-ff00-49ce-93ca-175906a42550"/>
-        <prov:entity prov:ref="string:urn:uuid:mitre:plus:3cddcefa-5a0b-4d27-a042-b106d0834a11"/>
-    </prov:used>
-    <prov:used prov:id="triggered:urn:uuid:mitre:plus:1c3371b8-b94d-40b2-82ed-f2ddc3cc7728:urn:uuid:mitre:plus:c51e8fde-4f8e-4650-ab9e-dc3b0c56d655">
-        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:c51e8fde-4f8e-4650-ab9e-dc3b0c56d655"/>
-        <prov:entity prov:ref="string:urn:uuid:mitre:plus:1c3371b8-b94d-40b2-82ed-f2ddc3cc7728"/>
-    </prov:used>
-    <prov:wasGeneratedBy prov:id="triggered:urn:uuid:mitre:plus:d45af114-3ed4-4d97-ab97-2a9196093df1:urn:uuid:mitre:plus:c3a407d8-ac8e-4021-855f-2e765bae6ccc">
-        <prov:entity prov:ref="string:urn:uuid:mitre:plus:c3a407d8-ac8e-4021-855f-2e765bae6ccc"/>
-        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:d45af114-3ed4-4d97-ab97-2a9196093df1"/>
+    <prov:wasGeneratedBy prov:id="triggered:urn:uuid:mitre:plus:22bddd81-3fdd-4140-9c29-8c95c916baa2:urn:uuid:mitre:plus:a68cb029-4445-4f0a-85a4-4c06485d94a3">
+        <prov:entity prov:ref="string:urn:uuid:mitre:plus:a68cb029-4445-4f0a-85a4-4c06485d94a3"/>
+        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:22bddd81-3fdd-4140-9c29-8c95c916baa2"/>
     </prov:wasGeneratedBy>
+    <prov:used prov:id="triggered:urn:uuid:mitre:plus:909db7cc-1823-46f0-b7bc-6c5a7e021ed5:urn:uuid:mitre:plus:d9d28f9d-93e1-41a1-9cb6-d62567a1187f">
+        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:d9d28f9d-93e1-41a1-9cb6-d62567a1187f"/>
+        <prov:entity prov:ref="string:urn:uuid:mitre:plus:909db7cc-1823-46f0-b7bc-6c5a7e021ed5"/>
+    </prov:used>
+    <prov:wasGeneratedBy prov:id="triggered:urn:uuid:mitre:plus:56880f29-97f2-427c-9d7e-498465cb50b9:urn:uuid:mitre:plus:f11ee651-9936-49e5-8854-d49acc09a10c">
+        <prov:entity prov:ref="string:urn:uuid:mitre:plus:f11ee651-9936-49e5-8854-d49acc09a10c"/>
+        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:56880f29-97f2-427c-9d7e-498465cb50b9"/>
+    </prov:wasGeneratedBy>
+    <prov:used prov:id="triggered:urn:uuid:mitre:plus:37fc34c2-120d-4ad8-bdce-56ae32d0dd59:urn:uuid:mitre:plus:f3874e48-c6f0-4754-8303-e2f1b5b08c18">
+        <prov:activity prov:ref="invocation:urn:uuid:mitre:plus:f3874e48-c6f0-4754-8303-e2f1b5b08c18"/>
+        <prov:entity prov:ref="string:urn:uuid:mitre:plus:37fc34c2-120d-4ad8-bdce-56ae32d0dd59"/>
+    </prov:used>
 </prov:document>
